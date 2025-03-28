@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-[#564787]/10 text-[#564787] ring-1 ring-[#564787]/20 animate-pulse">
                     <Rocket className="h-4 w-4 mr-2" />
-                    Freelancer's Best Friend
+                    Freelancer s Best Friend
                   </div>
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-gradient-to-r from-[#101935] to-[#564787] bg-clip-text text-transparent">
                     Create Winning Proposals in Minutes
@@ -322,7 +322,7 @@ export default function Home() {
                       ))}
                     </div>
                     <blockquote className="text-[#101935]/80 italic">
-                      "{testimonial.quote}"
+                      {testimonial.quote}
                     </blockquote>
                   </div>
                   <div className="mt-6 flex items-center">
